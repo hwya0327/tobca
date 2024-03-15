@@ -12,5 +12,5 @@ CUDNN 8.9.7 <br/>
 IBM SPSS Statistics 27
 
 # Contents
-AKI - Optuna - Model_C.ipynb is including an AKI - Model C.pt development by Optuna.
+AKI - Optuna - Model_C.ipynb is including an AKI - Model C.pt development by Optuna. <br/>
 AKI - Calibration - Model C.csv summarizes AKI - Calibration - Model C.ipynb.
