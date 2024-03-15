@@ -6,8 +6,8 @@ MIMIC-IV : https://mimic.physionet.org/](https://physionet.org/content/mimiciv/2
 
 
 # Software
-Python 3.11.7
-PyTorch 2.1.2
-CUDA version 12.1
-CUDNN 8.9.7
+Python 3.11.7 <br/>
+PyTorch 2.1.2 <br/>
+CUDA version 12.1 <br/>
+CUDNN 8.9.7 <br/>
 IBM SPSS Statistics 27
