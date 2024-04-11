@@ -1,5 +1,7 @@
 # Advancing continuous prediction for acute kidney injury via multi-task learning: towards better clinical applicability (Tobca)
 
+# Stack  
+ <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
 
 # Database
 MIMIC-IV : https://physionet.org/content/mimiciv/2.0
