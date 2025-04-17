@@ -3,6 +3,9 @@
 📝 **Early Accepted** to IEEE Journal of Biomedical and Health Informatics 
 🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)
 
+📝 **Early Accepted** to IEEE Journal of Biomedical and Health Informatics 
+🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)
+
 # 🏥 MIMIC-IV v3.1 Database
 
 This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly available electronic health record (EHR) database developed by the MIT Laboratory for Computational Physiology.
