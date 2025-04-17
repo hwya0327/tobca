@@ -1,6 +1,7 @@
 ### 🧠 Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability (TOBCA)
 
-📝 **Early Accepted** to IEEE Journal of Biomedical and Health Informatics 🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)
+📝 **Early Accepted** to IEEE Journal of Biomedical and Health Informatics 
+🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)
 
 # 🏥 MIMIC-IV v3.1 Database
 
