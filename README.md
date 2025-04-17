@@ -2,6 +2,7 @@
 
 📝 **Early Accepted** to IEEE Journal of Biomedical and Health Informatics <br/>
 🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)
+doi={10.1109/JBHI.2025.3559677}
 
 # 🏥 MIMIC-IV v3.1 Database
 
