@@ -8,7 +8,7 @@
 
 This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly available electronic health record (EHR) database developed by the MIT Laboratory for Computational Physiology.
 
-### 📌 What is MIMIC-IV?
+### 🧬 What is MIMIC-IV?
 - **MIMIC (Medical Information Mart for Intensive Care)** is a comprehensive EHR dataset containing de-identified data from **over 300,000 ICU and hospital admissions** at the Beth Israel Deaconess Medical Center.
 - **Version 4 (MIMIC-IV)** separates hospital-level and ICU-level data for cleaner integration and research.
 - **v3.1** is the latest stable release as of this repository, with expanded coverage and fixed inconsistencies from prior versions.
@@ -49,10 +49,6 @@ This repository contains the official, fully updated implementation built on MI
 # 🧱 Stack
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/Optuna-70AADB?style=flat"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Numpy-013243?style=flat&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Matplotlib-3776AB?style=flat&logo=matplotlib&logoColor=white"/> <img src="https://img.shields.io/badge/Seaborn-0C5A6B?style=flat"/> <img src="https://img.shields.io/badge/WandB-FFBE00?style=flat&logo=wandb&logoColor=black"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/SPSS-005BAB?style=flat&logo=ibm&logoColor=white"/>
-
-# 📄 Citation
-
-If this work was helpful or referenced in your research, please consider citing the following paper:
 
 # 📄 Citation
 
