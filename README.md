@@ -7,18 +7,18 @@
 
 This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly available electronic health record (EHR) database developed by the MIT Laboratory for Computational Physiology.
 
-### 📌 What is MIMIC-IV?
+# 📌 What is MIMIC-IV?
 - **MIMIC (Medical Information Mart for Intensive Care)** is a comprehensive EHR dataset containing de-identified data from **over 300,000 ICU and hospital admissions** at the Beth Israel Deaconess Medical Center.
 - **Version 4 (MIMIC-IV)** separates hospital-level and ICU-level data for cleaner integration and research.
 - **v3.1** is the latest stable release as of this repository, with expanded coverage and fixed inconsistencies from prior versions.
 
-### 📦 Key Features
+# 📦 Key Features
 - Demographics, vital signs, lab tests, medications, diagnoses, and procedures
 - Structured in **PostgreSQL-style relational tables**
 - Separated into modules: `hosp`, `icu`, `note`, `cxr`, and more
 - Supports longitudinal studies and risk modeling in clinical settings
 
-### 🔐 Data Access Requirements
+# 🔐 Data Access Requirements
 To access and use MIMIC-IV:
 1. Complete CITI “Data or Specimens Only Research” training (HIPAA compliance)
 2. Register and sign a data use agreement on PhysioNet
