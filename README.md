@@ -20,18 +20,32 @@ This repository contains the official, fully updated implementation built on MI
 > ✅ Author‑endorsed codebase. Use this repository for any replication or extension—every primary result has been verified under MIMIC‑IV v3.1.  
 > ❗ Caveat. Only the Appendix’s temporal‑validation metrics are version‑sensitive and are not directly comparable to the headline results.
 
+# 🏥 MIMIC-IV v3.1 Database
+
+This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly available electronic health record (EHR) database developed by the MIT Laboratory for Computational Physiology.
+
+### 📌 What is MIMIC-IV?
+- **MIMIC (Medical Information Mart for Intensive Care)** is a comprehensive EHR dataset containing de-identified data from **over 300,000 ICU and hospital admissions** at the Beth Israel Deaconess Medical Center.
+- **Version 4 (MIMIC-IV)** separates hospital-level and ICU-level data for cleaner integration and research.
+- **v3.1** is the latest stable release as of this repository, with expanded coverage and fixed inconsistencies from prior versions.
+
+### 📦 Key Features
+- Demographics, vital signs, lab tests, medications, diagnoses, and procedures
+- Structured in **PostgreSQL-style relational tables**
+- Separated into modules: `hosp`, `icu`, `note`, `cxr`, and more
+- Supports longitudinal studies and risk modeling in clinical settings
+
+### 🔐 Data Access Requirements
+To access and use MIMIC-IV:
+1. Complete CITI “Data or Specimens Only Research” training (HIPAA compliance)
+2. Register and sign a data use agreement on PhysioNet
+
+➡️ **Access the dataset**: [https://physionet.org/content/mimiciv/3.1](https://physionet.org/content/mimiciv/3.1)
+
+> ⚠️ Note: All preprocessing and cohort selection in this project assumes **MIMIC-IV v3.1 structure**. Earlier versions (e.g., v2.0) are **not compatible**.
+
 # Stack  
  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
-
-# Database
-MIMIC-IV : https://physionet.org/content/mimiciv/3.1
-
-# Software
-Python 3.11.7 <br/>
-PyTorch 2.1.2 <br/>
-CUDA version 12.1 <br/>
-CUDNN 8.9.7 <br/>
-IBM SPSS Statistics 27
 
 # Contents
 AKI - Optuna - Model_C.ipynb is including an AKI - Model C.pt development by Optuna. <br/>
