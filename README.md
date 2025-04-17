@@ -55,11 +55,10 @@ If this work was helpful or referenced in your research, please consider citing 
 
 ### 📚 BibTeX
 ```bibtex
-@article{tobca2025advancing,
-  title={Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability (TOBCA)},
-  author={Kim, Hyeonwoo and Lee, Jeongbin and Kim, Heejae and Choi, Jungmin},
-  journal={IEEE Transactions on Biomedical Engineering},
+@article{kim2025advancing,
+  title={Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability},
+  author={Kim, Hyunwoo and Lee, Sung Woo and Kim, Su Jin and Han, Kap Su and Lee, Sijin and Song, Juhyun and Lee, Hyo Kyung},
+  journal={IEEE Journal of Biomedical and Health Informatics},
   year={2025},
-  note={Early Accepted},
-  url={https://ieeexplore.ieee.org/abstract/document/10960515}
+  publisher={IEEE}
 }
