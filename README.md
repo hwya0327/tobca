@@ -1,4 +1,4 @@
-# Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability (TOBCA)
+# 🧠 Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability (TOBCA)
 
 (Early Accepted -> https://ieeexplore.ieee.org/abstract/document/10834563)
 
