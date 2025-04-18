@@ -48,6 +48,9 @@ The notebooks should be executed in the following order:
 5. **`aki_train.ipynb`**  
    Trains and evaluates the AKI prediction model using the processed dataset.
 
+> This pipeline requires **significant memory resources** and access to a **PostgreSQL database** preloaded with MIMIC-IV data.  
+> Please make sure the necessary tables are **fully registered and indexed** in your local PostgreSQL instance prior to execution.
+
 # ⚠️ Dataset Version & Reproducibility
 
 This repository contains the official, fully updated implementation built on MIMIC‑IV v3.1.
