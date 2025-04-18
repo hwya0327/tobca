@@ -26,7 +26,7 @@ To access and use MIMIC-IV:
 
 ➡️ **Access the dataset**: [https://physionet.org/content/mimiciv/3.1](https://physionet.org/content/mimiciv/3.1)
 
-> All preprocessing and cohort selection in this project assumes **MIMIC-IV v3.1 structure**. Earlier versions (e.g., v2.0) are **not compatible**.
+> - All preprocessing and cohort selection in this project assumes **MIMIC-IV v3.1 structure**. Earlier versions (e.g., v2.0) are **not compatible**.
 
 # 📂 This repository contains:
 
