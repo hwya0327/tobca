@@ -37,10 +37,10 @@ The notebooks should be executed in the following order:
    Selects eligible ICU stays and constructs the AKI cohort.
 
 2. **`aki_vital.ipynb`**  
-   Extracts and preprocesses vital sign features (e.g., heart rate, BP, temperature).
+   Extracts and preprocesses vital sign features (e.g., heart rate, blood pressure, temperature).
 
 3. **`aki_lab.ipynb`**  
-   Extracts laboratory test results and treatment information, and computes derived features (e.g., Blood Urea Nitrogen, use of antibiotics, vasopressor administration).
+   Extracts laboratory test results and treatment information, and computes derived features (e.g., bun, antibiotics, vasopressor).
 
 4. **`aki_data.ipynb`**  
    Merges cohort, vital, and lab data into a final modeling dataset.
