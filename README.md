@@ -51,10 +51,6 @@ The notebooks should be running in the following order:
 
 > - **High memory usage** during notebook execution (especially during data merge and modeling).
 > - **PostgreSQL database** with **MIMIC-IV v3.1** tables **fully registered and indexed**.
-> - **Precomputed file required**:  
->   The notebook `cohort.ipynb` relies on a file named `df_static.ftr`, which contains static patient-level features.
->   - This file is **not included** in the repository due to its size (>25MB) and potential data sensitivity.
->   - Please generate in advance or manually place it in the correct directory before running the pipeline.
 
 # ⚠️ Dataset Version & Reproducibility
 
