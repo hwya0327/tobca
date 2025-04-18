@@ -36,20 +36,22 @@ The notebooks should be running in the following order:
 1. **`cohort.ipynb`**  
    Selects eligible ICU stays and constructs the AKI cohort.
 
-2. **`vital.ipynb`**  
+3. **`vital.ipynb`**  
    Extracts and preprocesses vital sign features (e.g., heart rate, blood pressure, temperature).
 
-3. **`lab.ipynb`**  
+4. **`lab.ipynb`**  
    Extracts laboratory test results and treatment information, and computes derived features (e.g., bun, antibiotics, vasopressor).
 
-4. **`data.ipynb`**  
+5. **`data.ipynb`**  
    Merges cohort, vital, and lab data into a final modeling dataset.
 
-5. **`train.ipynb`**  
+6. **`train.ipynb`**  
    Trains and evaluates the AKI prediction model using the processed dataset.
 
 > This pipeline requires **significant memory resources** and access to a **PostgreSQL database** preloaded with MIMIC-IV data.  
 > Please make sure the necessary tables are **fully registered and indexed** in your local PostgreSQL instance prior to execution.
+> The notebook cohort.ipynb relies on a precomputed file named df_static.ftr, which contains patient-level static features (e.g., demographics, ICU admission metadata).
+Due to its size (>25MB) and data sensitivity, this file is not included in the public repository and cannot be shared directly. Please ensure that the preprocessed demographic is generated in advance or manually placed in the appropriate directory before running the pipeline.
 
 # ⚠️ Dataset Version & Reproducibility
 
