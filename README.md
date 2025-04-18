@@ -49,7 +49,7 @@ The notebooks should be running in the following order:
    Trains and evaluates the AKI prediction model using the processed dataset.
 
 > This pipeline requires **significant memory resources** and access to a **PostgreSQL database** preloaded with MIMIC-IV data.  
-> Please make sure the necessary tables are **fully registered and indexed** in your local PostgreSQL instance prior to execution.
+> Please make sure the necessary tables are **fully registered and indexed** in your local PostgreSQL instance prior to execution.  
 > The notebook cohort.ipynb relies on a precomputed file named df_static.ftr, which contains patient-level static features (e.g., demographics, ICU admission metadata).
 Due to its size (>25MB) and data sensitivity, this file is not included in the public repository and cannot be shared directly. Please ensure that the preprocessed demographic is generated in advance or manually placed in the appropriate directory before running the pipeline.
 
