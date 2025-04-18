@@ -33,19 +33,19 @@ To access and use MIMIC-IV:
 This repository contains a sequence of Jupyter notebooks designed to build an AKI prediction pipeline using MIMIC-IV data.  
 The notebooks should be executed in the following order:
 
-1. **`aki_cohort.ipynb`**  
+1. **`cohort.ipynb`**  
    Selects eligible ICU stays and constructs the AKI cohort.
 
-2. **`aki_vital.ipynb`**  
+2. **`vital.ipynb`**  
    Extracts and preprocesses vital sign features (e.g., heart rate, blood pressure, temperature).
 
-3. **`aki_lab.ipynb`**  
+3. **`lab.ipynb`**  
    Extracts laboratory test results and treatment information, and computes derived features (e.g., bun, antibiotics, vasopressor).
 
-4. **`aki_data.ipynb`**  
+4. **`data.ipynb`**  
    Merges cohort, vital, and lab data into a final modeling dataset.
 
-5. **`aki_train.ipynb`**  
+5. **`train.ipynb`**  
    Trains and evaluates the AKI prediction model using the processed dataset.
 
 > This pipeline requires **significant memory resources** and access to a **PostgreSQL database** preloaded with MIMIC-IV data.  
