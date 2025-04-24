@@ -1,0 +1,17 @@
+{
+  "hidden_size": 50,
+  "embedding_size": 50,
+  "recurrent_num_layers": 2,
+  "embedding_num_layers": 3,
+  "CB": 0,
+  "recurrent_type": "GRU",
+  "activation_type": "ELU",
+  "batchsize": 512,
+  "learning_rate": 0.01,
+  "lr_decay_steps": 800,
+  "lr_decay_factor": 0.85,
+  "highway_network": 1,
+  "LD": 1,
+  "LN": 1,
+  "CDF": 1
+}
