@@ -48,7 +48,7 @@ The notebooks should be running in the following order:
 6. **`train.ipynb`**  
    Trains and evaluates the AKI prediction model using the processed dataset.
 
-> - **provide reproducible cohort split IDs (`splits_stay.pt`) that allow researchers with MIMIC credentials to regenerate the same cohorts using our codebase.  
+> - **provide reproducible cohort split IDs (`splits_stay.pt`) that allow researchers to regenerate the same cohorts.  
 > - **High memory usage** during notebook execution (especially during data merge and modeling).
 > - **PostgreSQL database** with **MIMIC-IV v3.1** tables **fully registered and indexed**.
 
