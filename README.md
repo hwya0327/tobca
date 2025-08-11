@@ -12,21 +12,6 @@ This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly 
 - **Version 4 (MIMIC-IV)** separates hospital-level and ICU-level data for cleaner integration and research.
 - **v3.1** is the latest stable release as of this repository, with expanded coverage and fixed inconsistencies from prior versions.
 
-### 📦 Key Features
-- Demographics, vital signs, lab tests, medications, diagnoses, and procedures
-- Structured in **PostgreSQL-style relational tables**
-- Separated into modules: `hosp`, `icu`, `note`, `cxr`, and more
-- Supports longitudinal studies and risk modeling in clinical settings
-
-### 🔐 Data Access Requirements
-To access and use MIMIC-IV:
-1. Complete CITI “Data or Specimens Only Research” training (HIPAA compliance)
-2. Register and sign a data use agreement on PhysioNet
-
-➡️ **Access the dataset**: [https://physionet.org/content/mimiciv/3.1](https://physionet.org/content/mimiciv/3.1)
-
-> - All preprocessing and cohort selection in this project assumes **MIMIC-IV v3.1 structure**. Earlier versions (e.g., v2.0) are **not compatible**.
-
 # 📂 This repository contains:
 
 This repository contains a sequence of Jupyter notebooks designed to build an AKI prediction pipeline using MIMIC-IV data. The notebooks should be running in the following order:
