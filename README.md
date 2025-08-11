@@ -29,8 +29,7 @@ To access and use MIMIC-IV:
 
 # 📂 This repository contains:
 
-This repository contains a sequence of Jupyter notebooks designed to build an AKI prediction pipeline using MIMIC-IV data.  
-The notebooks should be running in the following order:
+This repository contains a sequence of Jupyter notebooks designed to build an AKI prediction pipeline using MIMIC-IV data. The notebooks should be running in the following order:
 
 1. **`cohort.ipynb`**  
    Selects eligible ICU stays and constructs the AKI cohort.
