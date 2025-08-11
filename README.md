@@ -1,9 +1,9 @@
-# 🧠 Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability (TOBCA)
+# Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability (TOBCA)
 
 🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)  
 📌 [10.1109/JBHI.2025.3559677](https://doi.org/10.1109/JBHI.2025.3559677)
 
-# 🏥 MIMIC-IV v3.1 Database
+# MIMIC-IV v3.1 Database
 
 This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly available electronic health record (EHR) database developed by the MIT Laboratory for Computational Physiology.
 
@@ -12,7 +12,7 @@ This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly 
 - **Version 4 (MIMIC-IV)** separates hospital-level and ICU-level data for cleaner integration and research.
 - **v3.1** is the latest stable release as of this repository, with expanded coverage and fixed inconsistencies from prior versions.
 
-# 📂 This repository contains:
+# This repository contains:
 
 This repository contains a sequence of Jupyter notebooks designed to build an AKI prediction pipeline using MIMIC-IV data. The notebooks should be running in the following order:
 
@@ -35,7 +35,7 @@ This repository contains a sequence of Jupyter notebooks designed to build an AK
 > - **High memory usage** during notebook execution (especially during data merge and modeling).
 > - **PostgreSQL database** with **MIMIC-IV v3.1** tables **fully registered and indexed**.
 
-# ⚠️ Dataset Version & Reproducibility
+# Dataset Version & Reproducibility
 
 This repository contains the official, fully updated implementation built on MIMIC‑IV v3.1.
 
@@ -50,14 +50,14 @@ This repository contains the official, fully updated implementation built on MI
   - Main experiments & ablation studies: fully reproduced on v3.1 and unaffected by the version change.  
   - Temporal validation in the Appendix: cohort shift means the exact numbers in the paper cannot be recreated. Interpret those figures with caution; they are illustrative, not central to the conclusions.
 
-> ✅ Author‑endorsed codebase. Use this repository for any replication or extension—every primary result has been verified under MIMIC‑IV v3.1.  
-> ❗ Caveat. Only the Appendix’s temporal‑validation metrics are version‑sensitive and are not directly comparable to the headline results.
+> Author‑endorsed codebase. Use this repository for any replication or extension—every primary result has been verified under MIMIC‑IV v3.1.  
+> Caveat. Only the Appendix’s temporal‑validation metrics are version‑sensitive and are not directly comparable to the headline results.
 
-# 🧱 Stack
+# Stack
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/Optuna-70AADB?style=flat"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Numpy-013243?style=flat&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Matplotlib-3776AB?style=flat&logo=matplotlib&logoColor=white"/> <img src="https://img.shields.io/badge/Seaborn-0C5A6B?style=flat"/> <img src="https://img.shields.io/badge/WandB-FFBE00?style=flat&logo=wandb&logoColor=black"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/SPSS-005BAB?style=flat&logo=ibm&logoColor=white"/>
 
-# 📄 Citation
+# Citation
 
 If this work was helpful or referenced in your research, please consider citing the following paper:
 
