@@ -1,13 +1,13 @@
 # Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability (TOBCA)
 
-🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)  
-📌 [10.1109/JBHI.2025.3559677](https://doi.org/10.1109/JBHI.2025.3559677)
+[View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)  
+[10.1109/JBHI.2025.3559677](https://doi.org/10.1109/JBHI.2025.3559677)
 
 # MIMIC-IV v3.1 Database
 
 This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly available electronic health record (EHR) database developed by the MIT Laboratory for Computational Physiology.
 
-### 🧬 What is MIMIC-IV?
+### What is MIMIC-IV?
 - **MIMIC (Medical Information Mart for Intensive Care)** is a comprehensive EHR dataset containing de-identified data from **over 300,000 ICU and hospital admissions** at the Beth Israel Deaconess Medical Center.
 - **Version 4 (MIMIC-IV)** separates hospital-level and ICU-level data for cleaner integration and research.
 - **v3.1** is the latest stable release as of this repository, with expanded coverage and fixed inconsistencies from prior versions.
@@ -61,7 +61,7 @@ This repository contains the official, fully updated implementation built on MI
 
 If this work was helpful or referenced in your research, please consider citing the following paper:
 
-### 📚 BibTeX
+### BibTeX
 ```bibtex
 @article{kim2025advancing,
   title={Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability},
