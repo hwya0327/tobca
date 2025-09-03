@@ -68,6 +68,5 @@ If this work was helpful or referenced in your research, please consider citing 
   author={Kim, Hyunwoo and Lee, Sung Woo and Kim, Su Jin and Han, Kap Su and Lee, Sijin and Song, Juhyun and Lee, Hyo Kyung},
   journal={IEEE Journal of Biomedical and Health Informatics},
   year={2025},
-  publisher={IEEE},
-  url={https://ieeexplore.ieee.org/abstract/document/10960515}
+  publisher={IEEE}
 }
