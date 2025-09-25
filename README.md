@@ -1,8 +1,5 @@
 # Advancing Continuous Prediction for Acute Kidney Injury via Multi-task Learning: Towards Better Clinical Applicability (TOBCA)
 
-[View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10960515)  
-[10.1109/JBHI.2025.3559677](https://doi.org/10.1109/JBHI.2025.3559677)
-
 # MIMIC-IV v3.1 Database
 
 This project is based on the **MIMIC-IV v3.1** dataset, a large-scale, publicly available electronic health record (EHR) database developed by the MIT Laboratory for Computational Physiology.
